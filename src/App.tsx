@@ -25,7 +25,7 @@ function App() {
     return (
         <div className="App">
             <Button nickName={'cleanPage'} callback={cleanPage}/>
-            <p></p>
+            <p> </p>
             <ul>
                 {get.map((el) => {
                     return (
